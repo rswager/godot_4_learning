@@ -26,6 +26,9 @@ func _ready() -> void:
 	
 	test_scale = 2
 	scale = Vector2(test_scale,test_scale)
+	# $".." -> returns the parent of the current node in the scene
+	print($"..".test_array)
+	$"..".test_function()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
