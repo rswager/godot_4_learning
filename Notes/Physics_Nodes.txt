@@ -1,0 +1,39 @@
+Area2d
+-> An area that can check if another body entred
+-> Can be moved by changing the position
+->-> Ex An area to detect if a player has entered a house
+->-> Ex An area will be attached to the Lasers
+
+StaticBody2d
+-> A static body that other bodies collide with
+-> Not supposed to be  moved
+->-> Ex Any static object: Walls, Beds, obstacles...etc
+
+RigidBody2d
+-> Moving body that moves via physics (like a cannonball)
+-> Set an initial velocity
+->-> Ex (later impilmented greneades)
+
+CharacterBody2D
+-> Moving body controlled by code
+-> Inbuilt methods
+->-> Ex Any entity that is controlled by code: The Player & all enemies.
+
+
+Reccomendations to always keep the collision shape around the center, if possible
+
+Typical Structures
+
+Main Node
+-> Image
+-> Image, if more
+-> Collision Shape
+-> Collision Shape , if more
+
+Example
+
+Bed
+-> Bed Image
+-> Small Pillow Image
+-> Large Pillow Image
+-> CollisionShape
