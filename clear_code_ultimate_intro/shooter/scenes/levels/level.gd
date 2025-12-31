@@ -54,3 +54,11 @@ func _process(_delta) -> void:
 	
 func test_function() -> void:
 	print("this is a test function")
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	print(body, " body has entered")
+
+
+func _on_area_2d_body_exited(body: Node2D) -> void:
+	print(body, " body has exited")

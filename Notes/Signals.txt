@@ -1,0 +1,15 @@
+Signals
+-> When a certain action happens to a node:
+->-> A body entering an Area
+->-> A timer running out
+->-> two bodies colliding
+
+-> You can tell the affected node(s) to send a signal, which basically means that you are running a function
+
+-> The ability to do this gives incredibly powerful ways to make nodes communicate with each other!
+
+
+CUSTOMER SIGNALS
+-> You can create your own signals!
+-> The major limitation of singals is that they only work between nodes in the same scene.
+-> Triggering customer signals can help to communicate between scenes
