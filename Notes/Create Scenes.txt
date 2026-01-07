@@ -1,0 +1,9 @@
+So far, we have created scenes in the editor (drag drop in 2d/3d view)
+
+But this is't always possible in a game!
+-> For example, the lasers are also a scene, but one that is dynamically generated!
+
+How this works
+1.) We need to create a scene (in the example we need to make nodes that constitue a Laser/Grenade)
+2.) We need to create an instance of the scene (Scene = Blueprint, instance = a dsitinct node)
+3.) We need to add the scene to the node tree ( we need to add the instance specifically)
