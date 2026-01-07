@@ -7,3 +7,21 @@ How this works
 1.) We need to create a scene (in the example we need to make nodes that constitue a Laser/Grenade)
 2.) We need to create an instance of the scene (Scene = Blueprint, instance = a dsitinct node)
 3.) We need to add the scene to the node tree ( we need to add the instance specifically)
+
+
+
+Local vs Global Postions
+
+Position (the one we use normall) is a local position
+-> That is to say they are relative to the parent.
+
+Global Postions are an exact pixel coordinate that is independent from any parent
+-> We are not in relation to the parent
+
+EX 1
+Image you are in your house:
+-> You have some relative position to the center of the house (your local position) but you still have a specific GPS location(global position)
+
+EX 2
+You can add a Node2D with an offset of x:100 and y:200 and give it a child on the same position.
+The child will have a local position of x:0 an dy:0, but a global position of x:100 and y:200
