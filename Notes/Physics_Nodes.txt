@@ -37,3 +37,13 @@ Bed
 -> Small Pillow Image
 -> Large Pillow Image
 -> CollisionShape
+
+
+##################################
+In Depth RigidBody2D
+
+-> RidigBody2Ds have a gravity setting that is on by default! (gravity goes from top of screen to bottom of screen)
+-> You can set physics behavior in the inspector and additional options are set via PhysicalMateria (Friction, Bouncing)
+-> And you are only supposed to set a starting velocity, the movement is then influenced by physics
+
+
