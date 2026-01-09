@@ -1,0 +1,10 @@
+The Camera is pretty simple
+-- It want's to be the child of the node it follows (the player!)
+
+We get some weird jankieness. (camera is lagging behind)
+- You can enable position smoothing and set the speed for the camera to follow the player
+
+Camera Zoom (<1 zoom out:  >1 Zoom In)
+
+
+WE CAN SET THE CAMERA LIMIT (can we do this dynamically later on?)
