@@ -37,3 +37,12 @@ func test_take_damage_not_below_zero():
 	_character.take_damage(101)
 	assert_gte(_character.hp, 0, "We cannot have negative health!")
 	
+func test_take_damage_with_shield():
+	_character.hp = 100
+	_character.is_wearing_shield = true
+	_character.take_damage(10)
+	# if we have 100 health and take 10 damage (without armore)
+	# then we should have greater than 90 health remaingn with armor
+	assert_gt(_character.hp, 90, "Health should be greater than 90!")
+	# another way of saying this is
+	assert_true(_character.hp > 90, "Health shoud be greater than 90!")
